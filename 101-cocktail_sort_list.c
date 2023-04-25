@@ -64,7 +64,7 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker)
 void cocktail_sort_list(listint_t **list)
 {
 	listint_t *tail, *shaker;
-	bool shaken_not_stirred = false;
+	bool shaken_not_stirred = False;
 
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
